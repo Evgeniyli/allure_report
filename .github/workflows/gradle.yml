@@ -19,14 +19,16 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
 
-      - name: Build with Gradle
-        run: gradle smokeTest
-        continue-on-error: true
-
       - name: start selenoid
         uses: ./
       - name: is selenoid started?
         run: curl http://192.168.1.118:4444/status
+
+      - name: Build with Gradle
+        run: chmod +x gradlew
+      - name: Test
+        run: ./gradlew smokeTest
+        continue-on-error: true
 
       - name: Get Allure history
         uses: actions/checkout@v2
