@@ -30,5 +30,11 @@ public class SimpleTest {
         step("step 77777");
         step("step 888888");
     }
+
+    @Test
+    public void simpleTestFive() {
+        step("step 77777");
+        step("step 888888");
+    }
 }
 
