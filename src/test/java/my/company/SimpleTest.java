@@ -12,7 +12,6 @@ public class SimpleTest {
     @Test
     public void simpleTestOne() {
         step("step 1");
-        step("step 2");
     }
     @Test
     public void simpleTestTwo() {
