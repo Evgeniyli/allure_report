@@ -42,4 +42,13 @@ public class LoginTest extends BaseTest {
     public void testCase_loginSystemTestProd() {
         TestReporter.reportDebugStep("Username has been logged in : %s ", "fdf");
     }
+
+    @Test(groups = "smoke")
+    @DisableRunTestMethod(environmentIgnoreList = {"prod"})
+    @Issue("https://test2.com")
+    @Description("Navigate to main page")
+    @Severity(SeverityLevel.CRITICAL)
+    public void testCase_loginSystemTestUAT() {
+        TestReporter.reportDebugStep("Username has been logged in : %s ", "Tedfsdf");
+    }
 }
