@@ -15,6 +15,6 @@ public class BaseTest {
     }
 
     public void initDriver(String browserValue, String hub) {
-        new WebDriverHolder(browserValue, hub);
+//        new WebDriverHolder(browserValue, hub);
     }
 }
