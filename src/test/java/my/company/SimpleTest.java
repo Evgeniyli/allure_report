@@ -24,5 +24,11 @@ public class SimpleTest {
         step("step 4");
         step("step 55");
     }
+
+    @Test
+    public void simpleTestFourth() {
+        step("step 77777");
+        step("step 888888");
+    }
 }
 
