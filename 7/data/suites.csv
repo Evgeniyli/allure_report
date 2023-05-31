@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 31 13:28:12 GMT 2023","Wed May 31 13:28:12 GMT 2023","0","Surefire suite","Surefire test","my.company.SimpleTest","my.company.SimpleTest","simpleTestTwo","simpleTestTwo",""
+"passed","Wed May 31 13:28:12 GMT 2023","Wed May 31 13:28:12 GMT 2023","12","Surefire suite","Surefire test","my.company.SimpleTest","my.company.SimpleTest","simpleTestFive","simpleTestFive",""
+"passed","Wed May 31 13:28:12 GMT 2023","Wed May 31 13:28:12 GMT 2023","1","Surefire suite","Surefire test","my.company.SimpleTest","my.company.SimpleTest","simpleTestFourth","simpleTestFourth",""
+"passed","Wed May 31 13:28:12 GMT 2023","Wed May 31 13:28:12 GMT 2023","1","Surefire suite","Surefire test","my.company.SimpleTest","my.company.SimpleTest","simpleTestOne","simpleTestOne",""
+"passed","Wed May 31 13:28:12 GMT 2023","Wed May 31 13:28:12 GMT 2023","1","Surefire suite","Surefire test","my.company.SimpleTest","my.company.SimpleTest","simpleTestThree","simpleTestThree",""
