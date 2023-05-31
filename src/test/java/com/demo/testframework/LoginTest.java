@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest {
     @Issue("https://test2.com")
     @Description("Navigate to main page")
     @Severity(SeverityLevel.CRITICAL)
-    public void testCase_loginSystemTestProd() {
+    public void testCase_loginSyostemTestProd() {
         TestReporter.reportDebugStep("Username has been logged in : %s ", "fdf");
     }
 
