@@ -1,0 +1,10 @@
+{
+  "login_page": {
+    "login_button": "nav-logo-sprites",
+    "login": "null",
+    "password": "null"
+  },
+  "main_page": {
+    "tittle": "nav-logo-sprites"
+  }
+}
