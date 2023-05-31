@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed May 31 21:33:25 GMT 2023","Wed May 31 21:33:25 GMT 2023","40","smoke.tests","Smoke tests","com.demo.testframework.LoginTest","com.demo.testframework.LoginTest","testCase_login777777TestProd","testCase_login777777TestProd","Navigate to main page"
+"unknown","Wed May 31 21:33:25 GMT 2023","Wed May 31 21:33:25 GMT 2023","0","smoke.tests","Smoke tests","com.demo.testframework.LoginTest","com.demo.testframework.LoginTest","testCase_loginSystemTestStage","testCase_loginSystemTestStage","Login to system"
+"passed","Wed May 31 21:33:25 GMT 2023","Wed May 31 21:33:25 GMT 2023","3","smoke.tests","Smoke tests","com.demo.testframework.LoginTest","com.demo.testframework.LoginTest","testCase_loginSystemTestFFF","testCase_loginSystemTestFFF","Navigate to main page"
+"passed","Wed May 31 21:33:25 GMT 2023","Wed May 31 21:33:25 GMT 2023","2","smoke.tests","Smoke tests","com.demo.testframework.LoginTest","com.demo.testframework.LoginTest","testCase_loginSystemTestUAT","testCase_loginSystemTestUAT","Navigate to main page"
