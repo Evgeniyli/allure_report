@@ -58,6 +58,6 @@ public class LoginTest extends BaseTest {
     @Description("Navigate to main page")
     @Severity(SeverityLevel.CRITICAL)
     public void testCase_loginSystemTestFFF() {
-        TestReporter.reportDebugStep("Username has been logged in : %s ", "Tedfsdf");
+        TestReporter.reportDebugStep("Username has been loggjjed in : %s ", "Tedfsdf");
     }
 }
