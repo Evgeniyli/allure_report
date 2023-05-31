@@ -23,6 +23,11 @@ jobs:
         run: gradle smokeTest
         continue-on-error: true
 
+      - name: start selenoid
+        uses: ./
+      - name: is selenoid started?
+        run: curl http://192.168.1.118:4444/status
+
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
